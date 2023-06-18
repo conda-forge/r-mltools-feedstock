@@ -1,11 +1,11 @@
-About r-mltools
-===============
+About r-mltools-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mltools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ben519/mltools
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mltools-feedstock/blob/main/LICENSE.txt)
 
 Summary: A collection of machine learning helper functions, particularly assisting in the Exploratory Data Analysis phase. Makes heavy use of the 'data.table' package for optimal speed and memory efficiency. Highlights include a versatile bin_data() function, sparsify() for converting a data.table to sparse matrix format with one-hot encoding, fast evaluation metrics, and empirical_cdf() for calculating empirical Multivariate Cumulative Distribution Functions.
 
