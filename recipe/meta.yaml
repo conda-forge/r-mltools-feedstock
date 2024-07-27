@@ -1,6 +1,5 @@
 {% set version = '0.3.5' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-mltools
@@ -13,8 +12,7 @@ source:
   sha256: 7093ffceccdf5d4c3f045d8c8143deaa8ab79935cc6d5463973ffc7d3812bb10
 
 build:
-  merge_build_host: True  # [win]
-  number: 3
+  number: 4
   noarch: generic
   rpaths:
     - lib/R/lib/
